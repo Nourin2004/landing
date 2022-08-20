@@ -113,13 +113,14 @@ header div.left h1 a {
 }
 header div.left h1 a img {
     display: block;
-    margin: 20px 40px 0 40px;
+    margin: 20px 186px 0 40px;
 }
 header div.left ul {
     display: flex;
     align-items: center;
 }
 header div.left ul li:nth-child(1) {
+    font-weight: 800;
     border-bottom: 2px solid #000;
 }
 header div.left ul li {
@@ -143,8 +144,30 @@ header div.right ul li a {
 
 }
 header div.right ul li a.button {
-    padding: 24px 32px ;
+    padding: 17px 43px ;
     border-radius: 4px;
     display: inline-block;
     border: 1px solid #000;
+}
+#home {
+   padding-top: 105px;
+   background: url(../Assets/Landing-pic.jpg) no-repeat;
+   background-size: 1180px;
+   background-position: right -220px bottom -100px;
+   height: 690px;
+}
+#home section.container {
+   
+}
+#home section.container h2 {
+
+}
+#home section.container h4 {
+
+}
+#home section.container ul {
+
+}
+#home section.container ul li {
+
 }
