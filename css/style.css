@@ -198,9 +198,28 @@ header div.right ul li a.button {
 #home section.container ul li a img {
     width: 40px;  
 }
-#home section.container div.content {
-
+#home section.container div.bottom {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 100px;
 }
-#home section.container div.content p {
-    
+#home section.container p{
+    font-size: 20px;
+    margin: 130px 0 20px 210px; 
+    color: grey;
+}
+#home section.container p b {
+    color: #000;
+}
+#home section.container div.bottom div.image img {
+    margin-right: 125px;
+    max-width: 90px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#home section.container div.bottom div.images img {
+    margin-right: 125px;
+    max-width: 62px;
+    align-items: center;
+    margin-bottom: 40px;
 }
