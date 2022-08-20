@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1040px;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('Poppins-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Medium.woff2') format('woff2'),
+        url('Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+header{
+    height: 100px;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+
+}
+header div.left {
+    display: flex;
+}
+header div.left h1 {
+    width: 100%;
+    margin-right: 40px;
+}
+header div.left h1 a {
+    display: block;
+    width: 100%;
+}
+header div.left h1 a img {
+    display: block;
+    margin: 20px 40px 0 40px;
+}
+header div.left ul {
+    display: flex;
+    align-items: center;
+}
+header div.left ul li:nth-child(1) {
+    border-bottom: 2px solid #000;
+}
+header div.left ul li {
+    margin-right: 40px;
+}
+
+header div.left ul li:last-child{
+    margin-right: 0;
+}
+header div.right {
+   
+}
+header div.right ul{
+    display: flex;
+    align-items: center;
+}
+header div.right ul li {
+    margin: 13px 40px 0 0;
+}
+header div.right ul li a {
+
+}
+header div.right ul li a.button {
+    padding: 24px 32px ;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #000;
+}
