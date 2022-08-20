@@ -152,22 +152,55 @@ header div.right ul li a.button {
 #home {
    padding-top: 105px;
    background: url(../Assets/Landing-pic.jpg) no-repeat;
-   background-size: 1180px;
-   background-position: right -220px bottom -100px;
+   background-size: 569px;
+   background-position: right 186px bottom 104px;
    height: 690px;
 }
 #home section.container {
-   
+  
 }
 #home section.container h2 {
-
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 30px;
 }
 #home section.container h4 {
-
+    font-size:20PX ;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 60px;
 }
 #home section.container ul {
-
+    display: flex;
+    align-items: center;
 }
 #home section.container ul li {
 
+}
+#home section.container ul li a.button {
+    padding: 17px 45px;
+    border-radius: 1px;
+    display: inline-block;
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    margin-right: 30px;
+    display: inline-block;
+}
+#home section.container ul li a {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+#home section.container ul li a img {
+    width: 40px;  
+}
+#home section.container div.content {
+
+}
+#home section.container div.content p {
+    
 }
