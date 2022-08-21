@@ -62,7 +62,7 @@ br.clear {
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
-	max-width:1040px;
+	max-width:1300px;
 }
 @font-face {
     font-family: 'Poppins';
@@ -201,11 +201,13 @@ header div.right ul li a.button {
 #home section.container div.bottom {
     display: flex;
     margin: 0 auto;
-    margin-left: 100px;
+    margin-left: 281px;
+    /* margin-bottom: 92px; */
+    /* padding-bottom: 146px; */
 }
 #home section.container p{
     font-size: 20px;
-    margin: 130px 0 20px 210px; 
+    margin: 130px 0 20px 381px;
     color: grey;
 }
 #home section.container p b {
@@ -222,4 +224,120 @@ header div.right ul li a.button {
     max-width: 62px;
     align-items: center;
     margin-bottom: 40px;
+}
+#spotlight {
+    background:#FFFCF3;
+}
+#spotlight h3 {
+    /* color: grey; */
+}
+#spotlight h2 {
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 54px;
+    font-size: 37px;
+}
+#spotlight div.box {
+    display: flex;
+    justify-content: space-between;
+}
+#spotlight div.box div.left {
+   display: block;
+   width: 100%;
+}
+#spotlight div.box div.left img {
+    max-width: 500px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#spotlight div.box div.right {
+    display: block;
+    width: 100%;
+}
+#spotlight div.box div.right p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+#spotlight div.box div.right ul {
+
+}
+#spotlight div.box div.right ul li {
+    font-size: 18px;
+    line-height: 45px;
+}
+#spotlight div.box div.right ul li a {
+
+}
+#spotlight div.box div.right ul li a img {
+
+}
+#spotlight div.box div.right div.green {
+    background: greenyellow;
+    display: flex;
+    padding: 28px 0 34px 0;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+    /* width: 601px; */
+    height: 138px;
+}
+#spotlight div.box div.right div.green div.item {
+    width: 33.33%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px; 
+    border-right: 1px solid #000;
+}
+
+#spotlight div.box div.right div.green div.item.middle {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    height: 83px;
+   
+}
+#spotlight div.box div.right div.green div.item h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#spotlight div.box div.right div.green div.item h5{
+    font-size: 23px;
+    text-align: center;
+    z-index: 2px;
+    margin-bottom: 102px;
+}
+#services {
+
+}
+#services section.top {
+
+}
+#services section.top h4{
+
+}
+#services section.top h2 {
+
+}
+#services section.top div.middle {
+
+}
+#services section.top div.middle div.one {
+
+}
+#services section.top div.middle div.one img {
+
+}
+#services section.top div.middle div.one h2 {
+
+}
+#services section.top div.middle div.one p {
+
+}
+#services section.top div.middle div.one a.button {
+
+}
+#services section.top div.middle div.two {
+
 }
