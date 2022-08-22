@@ -13,6 +13,7 @@
 }
 ol, ul {
 	list-style: none;
+	width: 229px;
 }
 del {
 	text-decoration: line-through;
@@ -660,17 +661,21 @@ padding-bottom: 43px;
     padding: 5%;
     border-radius: 8px;
 }
+#testimonials {
+    height: 100vh;
+}
 #testimonials section.top h3 {
     color: lightgray;
-    margin-top: 80px;
+    margin-top: 140px;
     text-align: center;
     margin-bottom: 20px;
 }
 #testimonials section.top p {
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 116px;
+    line-height: 51px;
 }
 #testimonials section.middle {
     display: flex;
@@ -679,3 +684,199 @@ padding-bottom: 43px;
     margin: o 40px 50px 40px;
     margin-left: 107px;
 }
+#testimonials section.middle div.one {
+    width: 318px;
+}
+#testimonials section.middle div.one ul {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 70px;
+}
+#testimonials section.middle div.one ul li.first {
+    border-radius: 50%;
+    border: 1px solid #D5FA52;
+    padding: 9px;
+}
+#testimonials section.middle div.one ul li img {
+    width: 100%;
+    display: block;
+}
+#testimonials section.middle div.one ul li h3 {
+    font-weight: bold;
+}
+#testimonials section.middle div.one ul li p {
+    color:grey;
+}
+#testimonials section.middle div.two {
+    width: 318px;
+}
+#testimonials section.middle div.two ul {
+    display: flex;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 70px;
+}
+#testimonials section.middle div.two ul li.second {
+    border-radius: 50%;
+    border: 1px solid #D5FA52;
+    padding: 9px;
+}
+#testimonials section.middle div.two ul li h3 {
+    font-weight: bold;
+}
+#testimonials section.middle div.two ul li p {
+    color:grey;
+}
+#testimonials section.middle div.three {
+    width: 318px;
+}
+#testimonials section.middle div.three ul {
+    display: flex;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 70px;
+}
+#testimonials section.middle div.three ul li.third {
+    border-radius: 50%;
+    border: 1px solid #D5FA52;
+    padding: 9px;
+}
+#testimonials section.middle div.three ul li h3 {
+    font-weight: bold;
+}
+#testimonials section.middle div.three ul li p {
+    color:grey;
+}
+
+
+#contact { 
+
+}
+#contact section.wrapper {
+    display: flex;
+}
+#contact section.left { 
+
+}
+
+#contact section.left div.project { 
+
+}
+
+#contact section.left div.project img {
+
+margin-right: 105px;
+}
+
+#contact section.right { 
+
+}
+
+#contact section.right section.top { 
+
+}
+
+#contact section.right section.top p {
+
+color: grey;
+
+font-size: 22px;
+
+margin-bottom: 18px;
+}
+
+#contact section.right section.top h2 {
+
+font-size: 35px;
+
+font-weight: bold;
+
+line-height: 48px;
+}
+
+#contact section.right section.middle {
+
+display: flex;
+}
+
+#contact section.right section.middle div.left { 
+
+}
+
+#contact section.right section.middle section.details div.left img { 
+
+}
+
+#contact section.right section.middle section.details div.left p { 
+
+}
+
+#contact section.right section.middle section.details div.left ul { 
+
+}
+
+#contact section.right section.middle section.details div.left ul li { 
+
+}
+
+#contact section.right section.middle section.details div.right { 
+
+}
+
+#contact section.right section.middle section.details div.right img { 
+
+}
+
+#contact section.right section.middle section.details div.right p { 
+
+}
+
+#contact section.right section.middle section.details div.right ul { 
+
+}
+
+#contact section.right section.middle section.details div.right ul li { 
+
+}
+
+#contact section.right section.middle section.details div.right ul li a { 
+
+}
+
+#contact section.right section.middle div.form { 
+
+}
+
+#contact section.right section.middle div.form form { 
+
+}
+
+#contact section.right section.middle div.form form input { 
+
+}
+
+#contact section.right section.middle div.form form input#number { 
+
+}
+
+#contact section.right section.middle div.form form input#email { 
+
+}
+
+#contact section.right section.bottom { 
+
+}
+
+#contact section.right section.bottom a.button { 
+
+}
+
