@@ -13,7 +13,7 @@
 }
 ol, ul {
 	list-style: none;
-	width: 229px;
+	width: 330px;
 }
 del {
 	text-decoration: line-through;
@@ -93,42 +93,45 @@ br.clear {
 }
 
 header{
-    height: 100px;
-    left: 0;
-    top: 0;
     display: flex;
     justify-content: space-between;
-    padding: 0 32px;
-
+    padding: 46px;
 }
 header div.left {
-    display: flex;
+    
 }
 header div.left h1 {
-    width: 100%;
-    margin-right: 40px;
+   
 }
 header div.left h1 a {
-    display: block;
-    width: 100%;
+    
 }
 header div.left h1 a img {
     display: block;
-    margin: 20px 186px 0 40px;
+    width: 100%;
 }
-header div.left ul {
+header div.middle{
+
+width: 50%;
+
+text-align: center;
+
+margin-top: 20px;
+}
+header div.middle ul {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-header div.left ul li:nth-child(1) {
+header div.middle ul li:nth-child(1) {
     font-weight: 800;
     border-bottom: 2px solid #000;
 }
-header div.left ul li {
+header div.middle ul li {
     margin-right: 40px;
 }
 
-header div.left ul li:last-child{
+header div.middle ul li:last-child{
     margin-right: 0;
 }
 header div.right {
@@ -136,18 +139,21 @@ header div.right {
 }
 header div.right ul{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 header div.right ul li {
-    margin: 13px 40px 0 0;
+   
 }
 header div.right ul li a {
-
+  font-weight: bold;
+  font-size: 16px;
 }
 header div.right ul li a.button {
-    padding: 17px 43px ;
+    padding: 17px 43px;
     border-radius: 4px;
     display: inline-block;
+    font-size: 16px;
     border: 1px solid #000;
 }
 #home {
@@ -167,6 +173,8 @@ padding-bottom: 43px;
     font-weight: bold;
     line-height: 50px;
     margin-bottom: 30px;
+    /* width: 92%; */
+    max-width: 23%;
 }
 #home section.container h4 {
     font-size:20PX ;
@@ -177,6 +185,7 @@ padding-bottom: 43px;
 #home section.container ul {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 #home section.container ul li {
 
@@ -234,7 +243,7 @@ padding-bottom: 43px;
 #spotlight {
     position: relative;
     background:#FFFCF3;
-    padding: 100px 0px 50px;
+    padding: 100px 0px;
 }
 #spotlight h3 {
     /* color: grey; */
@@ -264,7 +273,7 @@ padding-bottom: 43px;
     width: 100%;
 }
 #spotlight div.box div.right p {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 60px;
 }
 #spotlight div.box div.right ul {
@@ -281,25 +290,25 @@ padding-bottom: 43px;
 
 }
 #spotlight div.box div.right div.green {
-    width: 586px;
+    width: 515px;
     position: absolute;
-    bottom: 17px;
+    bottom: 69px;
     left: 572px;
     border-radius: 10px;
     background: greenyellow;
     display: flex;
-    padding: 28px 0 34px 0;
+    padding: -1px 0 19px 0;
     justify-content: center;
     align-items: center;
     /* display: block; */
     /* width: 601px; */
-    height: 138px;
+    height: 110px;
 }
 #spotlight div.box div.right div.green div.item {
     width: 33.33%;
-    height: 100px;
+    height: 75px;
     margin: 0 auto;
-    padding: 20px; 
+    padding: 11px;
     border-right: 1px solid #000;
 }
 #spotlight div.box div.right div.green div.item:last-child {
@@ -493,6 +502,7 @@ padding-bottom: 43px;
 #pricing section.top div.basic nav ul {
     list-style: none;
     text-align: center;
+    width: 249px;
 }
 #pricing section.top div.basic nav ul li a img {
     color: #D5FA52;
@@ -512,7 +522,7 @@ padding-bottom: 43px;
 #pricing section.top div.basic a.cat button{
     color: #000;
     font-size: 20px;
-    width: 90%;
+    width: 89%;
     background-color: greenyellow;
     margin-left: 5%;
     margin-top: 7%;
@@ -561,10 +571,12 @@ padding-bottom: 43px;
 }
 #pricing section.top div.items div.professional nav {
     margin-top: 5%;
+    /* width: 224px; */
 }
 #pricing section.top div.items div.professional nav ul {
     list-style: none;
     text-align: center;
+    width: 253px;
 }
 #pricing section.top div.items div.professional nav ul li a img {
     color: #D5FA52;
@@ -634,6 +646,7 @@ padding-bottom: 43px;
 #pricing section.top div.items div.ultimate nav ul {
     list-style: none;
     text-align: center;
+    width: 253px;
 }
 #pricing section.top div.items div.ultimate nav ul li a img {
     color: #D5FA52;
@@ -662,7 +675,8 @@ padding-bottom: 43px;
     border-radius: 8px;
 }
 #testimonials {
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 100px 0px;
 }
 #testimonials section.top h3 {
     color: lightgray;
@@ -759,26 +773,34 @@ padding-bottom: 43px;
 
 
 #contact { 
-
+    padding-bottom: 50px;
 }
 #contact section.wrapper {
     display: flex;
+    justify-content: space-between;
 }
-#contact section.left { 
+#contact section.left {
 
+width: 40%;
 }
 
-#contact section.left div.project { 
+#contact section.left div.project {
 
+width: 95%;
 }
 
 #contact section.left div.project img {
 
-margin-right: 105px;
+display: block;
+
+width: 100%;
+
+/* margin-right: 105px; */
 }
 
-#contact section.right { 
+#contact section.right {
 
+width: 60%;
 }
 
 #contact section.right section.top { 
@@ -805,50 +827,67 @@ line-height: 48px;
 
 #contact section.right section.middle {
 
+/* display: flex; */
+}
+
+#contact section.right section.middle div.details {
+
 display: flex;
+
+margin-top: 40px;
 }
 
-#contact section.right section.middle div.left { 
-
+#contact section.right section.middle div.details div.left img { 
+    width: 30px;
+    margin-bottom: 5px;
 }
 
-#contact section.right section.middle section.details div.left img { 
-
+#contact section.right section.middle div.details div.left p { 
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3;
+    margin-bottom: 8px;
 }
 
-#contact section.right section.middle section.details div.left p { 
+#contact section.right section.middle div.details div.left ul {
 
+/* font-size: 159px; */
+
+color: grey;
 }
 
-#contact section.right section.middle section.details div.left ul { 
-
+#contact section.right section.middle div.details div.left ul li {
+    font-size: 16px;
+    margin-bottom: 4px;
 }
 
-#contact section.right section.middle section.details div.left ul li { 
-
-}
-
-#contact section.right section.middle section.details div.right { 
-
-}
-
-#contact section.right section.middle section.details div.right img { 
-
-}
-
-#contact section.right section.middle section.details div.right p { 
-
-}
-
-#contact section.right section.middle section.details div.right ul { 
+#contact section.right section.middle div.details div.right { 
 
 }
 
-#contact section.right section.middle section.details div.right ul li { 
+#contact section.right section.middle div.details div.right img { 
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+#contact section.right section.middle div.details div.right p { 
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#contact section.right section.middle div.details div.right ul {
+
+font-size: 17px;
+
+margin-bottom: 40px;
+}
+
+#contact section.right section.middle div.details div.right ul li { 
 
 }
 
-#contact section.right section.middle section.details div.right ul li a { 
+#contact section.right section.middle div.details div.right ul li a { 
 
 }
 
@@ -860,23 +899,347 @@ display: flex;
 
 }
 
+#contact section.right section.middle div.form form input {
+
+font-size: 18px;
+
+margin-bottom: 60px;
+}
 #contact section.right section.middle div.form form input { 
-
+    padding-bottom: 12px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    font-size: 14px;
 }
-
-#contact section.right section.middle div.form form input#number { 
-
+#contact section.right section.middle div.form form.one input[type=number] { 
+    margin-left: 20px;
 }
-
-#contact section.right section.middle div.form form input#email { 
-
+#contact section.right section.middle div.form form.one{ 
+    display: flex;
 }
-
 #contact section.right section.bottom { 
-
+    text-align: right;
 }
-
 #contact section.right section.bottom a.button { 
-
+    border-radius: 2px;
+    display: inline-block;
+    padding: 22px 47px;
+    background: #000;
+    color: #fff;
+    height: 61px;
+}
+#community{
+    background: #FFFCF3;
+    padding: 80px 50px;
+}
+#community section.box{
+    background: #000;
+    text-align: center;
+    padding: 100px 30px;
+    border-radius: 15px;
+}
+#community section.box h4{
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+#community section.box h2{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#community section.box p{
+    color: #fff;
+    font-size: 14px;
+    width: 60%;
+    margin: 0 auto 25px;
+}
+#community section.box form{
+    width: 50%;
+    height: 40px;
+    margin: 0 auto; 
+    border: 1px solid #fff;
+    border-radius: 25px;
+    position: relative;
+   
+}
+#community section.box form input[type=mail]{
+    position: absolute;
+    left: 22px;
+    bottom: 11px;
+}
+#community section.box form input[type=submit]{
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    color: #000;
+    font-weight: bold;
+    background: #D5FA52;
+    padding: 12px 25px;
+    border-radius: 25px;
 }
 
+footer {
+	padding: 50px;
+	
+  }
+  footer section.top {
+	margin-bottom: 18px;
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid #000;
+	padding-top: 50px;
+  }
+  footer section.top div.item {
+	width: 13%;
+	margin-bottom: 65px;
+  }
+  footer section.top div.item.large {
+	width: 27%;
+  }
+  
+  footer section.top div.item h1 {
+	width: 101px;
+	margin-bottom: 17px;
+  }
+  footer section.top div.item h1 a {
+	width: 100%;
+	display: block;
+  }
+  footer section.top div.item h1 a img {
+	width: 100%;
+	display: block;
+  }
+  footer section.top div.item p {
+	margin-bottom: 15px;
+	color: #565a5fc7;
+	font-size: 14px;
+	font-weight: 500;
+  }
+  
+  footer section.top div.item h3 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+  }
+  
+  footer section.top div.item ul {
+  }
+  footer section.top div.item ul li {
+  }
+  footer section.top div.item ul li a {
+	padding: 4px 0;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+  }
+  footer section.top div.item:last-child {
+	width: 22%;
+  }
+  footer section.top div.item:last-child h3 {
+  }
+  footer section.top div.item:last-child p {
+	font-weight: 500;
+	color: #000;
+  }
+  footer section.top div.item:last-child p a {
+	font-size: 17px;
+	font-weight: 500;
+  }
+  footer section.top div.item:last-child p a:hover {
+	border-bottom: 1.5px solid #000;
+  }
+  footer section.top div.item:last-child div.call {
+	display: flex;
+  }
+  footer section.top div.item:last-child div.call div.icon {
+	width: 7%;
+  }
+  footer section.top div.item:last-child div.call div.icon img {
+	width: 100%;
+	display: block;
+  }
+  footer section.top div.item:last-child div.call a {
+	display: block;
+	width: 100%;
+  }
+  footer section.top div.item:last-child div.social {
+	display: flex;
+	justify-content: space-between;
+  }
+  footer section.top div.item:last-child div.social ul {
+	display: flex;
+	justify-content: space-between;
+  }
+  footer section.top div.item:last-child div.social ul li {
+	margin-right: 20px;
+	width: 22%;
+  }
+  footer section.top div.item:last-child div.social ul li:first-child {
+  }
+  footer section.top div.item:last-child div.social ul li div.image {
+	width: 100%;
+	}
+  footer section.top div.item:last-child div.social ul li div.image a {
+  }
+  footer section.top div.item:last-child div.social ul li div.image a img {
+	width: 100%;
+	display: block;
+  }
+  
+  footer section.bottom {
+	display: flex;
+	justify-content: space-between;
+  }
+  footer section.bottom div.left {
+	display: flex;
+  }
+  footer section.bottom p.left {
+	color: #000;
+	font-size: 17px;
+	font-weight: 600;
+  }
+  footer section.bottom div.bottom_right {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 60px;
+	}
+  footer section.bottom div.bottom_right div.right {
+	margin-right: 18px;
+  }
+  footer section.bottom div.bottom_right div.right:last-child {
+	margin-right: 0;
+  }
+  footer section.bottom div.bottom_right div.right a {
+	color: #000;
+	font-size: 15px;
+	font-weight: 600;
+  }
+
+  @media all and (max-width:1380px){
+    #spotlight div.box div.right div.green {
+        left: 451px;
+        bottom: -84px;
+    }
+    #pricing section.top div.content {
+        margin-left: 400px;
+        margin-top: 34px;
+    }
+    footer section.bottom div.bottom_right {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 56px;
+    }
+    
+  }
+  @media all and (max-width:1280px) {
+    #pricing section.top div.basic nav ul {
+        font-size: 14px;
+        margin-left: -29px;
+    }
+    #pricing section.top div.basic {
+        width: 25%
+    }
+    header div.middle {
+        margin-left: 38px;
+    }
+    header div.right ul li a {
+        margin-left: 65px;
+    }
+    #spotlight div.box div.right div.green {
+        bottom: 47px;
+    }
+    #pricing section.top div.items div.professional nav {
+        font-size: 14px;
+        margin-left: -29px;
+    }
+    #pricing section.top div.items div.professional h3 {
+        font-size: 30px;
+    }
+    #pricing section.top div.items div.professional {
+        width: 25%;
+    }
+    #pricing section.top div.items div.ultimate nav {
+        font-size: 15px;
+        margin-left: -22px;
+    }
+    #pricing section.top div.items div.ultimate h3 {
+        font-size: 32px;
+    }
+    #pricing section.top div.items div.ultimate {
+        width: 25%;
+    }
+    
+    p {
+        line-height: 1.6em;
+        font-size: 13px;
+    }
+
+    #testimonials section.middle div.one {
+        width: 348px;
+        margin-left: -51px
+    }
+    #spotlight div.box div.right ul li {
+        font-size: 16px;
+    }
+    #spotlight div.box div.right p {
+        font-size: 16px;
+    }
+    #contact section.left div.project img {
+        padding-top: 111px;
+    }
+    #contact section.right section.top h2 {
+        width: 53%;
+    }
+    #contact section.right section.middle div.form form input {
+        margin-bottom: 37px;
+    }      
+    #contact section.right {
+        width: 54%;
+        margin-left: 19px;
+    }
+    header div.left h1 a img {
+        width: 93%;
+    }
+  }
+  @media all and (max-width:1080px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 23px 19px;
+    }
+    header div.right ul li a.button {
+        padding: 13px 36px;
+    }
+    header div.middle {
+        display: none;
+    }
+    header div.right {
+        margin-top: 20px;
+    }
+    #home section.container h2 {
+        font-size: 30px;
+        line-height: 43px;
+        max-width: 24%;
+  }
+  
+    #home section.container h4 {
+        font-size: 17PX;
+        line-height: 24px;
+        margin-bottom: 59px;
+    }
+    #home section.container p {
+        font-size: 19px;
+        margin: 171px 0 20px 260px;
+    }
+    
+
+    #home section.container div.bottom {
+        margin-left: 119px;
+    }
+    #services div.middle div.one {
+        padding: 1%;
+        margin-bottom: 120px;
+        margin-top: 51px;
+    }
+  }
